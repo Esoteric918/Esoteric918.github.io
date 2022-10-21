@@ -1,6 +1,7 @@
 import React from 'react';
-import AboutMe from '../components/AboutMe/AboutMe';
-import Navbar from '../components/NavBar/Navbar';
+import AboutMe from '../components/AboutMe';
+import Navbar from '../components/Navbar';
+import Contact from '../components/Contact';
 import "./App.css";
 
 
@@ -11,7 +12,7 @@ function App() {
 
         <Navbar />
         <AboutMe />
-
+        <Contact />
     </div>
     </React.Fragment>
   );

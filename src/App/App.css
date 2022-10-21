@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body{
+	@apply bg-sky-900 text-sky-100;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+	@apply font-bold;
+  }
+
+  h1 {
+	@apply text-4xl sm:text-5xl md:text-6xl;
+  }
+  h2 {
+	@apply text-3xl sm:text-4xl md:text-5xl;
+  }
+
+  li {
+	@apply cursor-pointer;
+  }
+
+  button {
+	@apply cursor-pointer shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-sky-500 to-sky-600 text-sky-100 font-bold py-2 px-4 hover:from-sky-600 hover:to-sky-500 hover:shadow-xl hover:shadow-gray-500;
+  }
+
+}
+@layer components {
+
+    .fart {
+        @apply bg-gradient-to-b from-slate-500 to-slate-600;
+    }
+}
