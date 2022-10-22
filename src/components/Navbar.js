@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import me from '../assets/me.jpg'
+import logo from '../assets/ts-logo.png';
 
 
 
@@ -27,11 +27,11 @@ const Navbar = () => {
 
   return (
     <React.Fragment>
-    <div className="w-full h-32 shadow-xl" id="Navbar">
-      <div className="flex justify-between items-center w-full h-full px-3 2xl:px-16" >
+    <div className="w-full h-32 shadow-xl shadow-gray-400" id="Navbar">
+      <div className="flex justify-between  items-center w-full h-full px-3 2xl:px-16" >
       <img
-        src={me}
-        className='rounded-full h-16 w-16'
+        src={logo}
+        className='rounded-full shadow-md shadow-gray-400 h-16 w-16'
         alt='/' />
 
           <ul className='hidden md:flex'>

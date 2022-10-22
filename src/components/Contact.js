@@ -60,7 +60,10 @@ class Contact extends Component {
                   <a href='/resume'>
 
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <a href="https://docs.google.com/document/d/1VqhulpwMihIJ8gjYCxnV3eKZJLAmWhVBRaOrCBK2G8c/edit?usp=sharing">
+                          <BsFillPersonLinesFill />
+                        </a>
+
                       </div>
 
                   </a>
@@ -73,7 +76,7 @@ class Contact extends Component {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/db0a07e6-7d91-4d9d-8a71-6cc364d51be6'
                 method='POST'
                 encType='multipart/form-data'
               >
@@ -108,7 +111,7 @@ class Contact extends Component {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Subject</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-3 flex text-dark border-gray-300'
                     type='text'
                     name='subject'
                   />
@@ -116,7 +119,7 @@ class Contact extends Component {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300'
+                    className='border-2 rounded-lg p-3 text-dark border-gray-300'
                     rows='10'
                     name='message'
                   ></textarea>
