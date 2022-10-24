@@ -1,22 +1,17 @@
-import React, { Component } from "react";
+import React from 'react'
 
-// create funticional component that will inject project with title and description
-// use tailwind to style the project
 
-function ProjectItem(props) {
-  return (
-    <div className="flex flex-col items-center justify-center">
-      <div className="w-4/5 h-4/5 bg-white shadow-lg rounded-lg overflow-hidden">
-        <div className="w-full h-2/3 bg-gray-100"></div>
-        <div className="w-full h-1/3 p-4">
-          <h1 className="text-gray-900 font-bold text-2xl uppercase">
-            {props.title}
-          </h1>
-          <p className="mt-2 text-gray-600">{props.description}</p>
+
+
+export default function ProjectItem({ title, backgroundImg, projectUrl, tech }) {
+    return (
+        <div className="relative flex flex-col items-center justify-center h-96">
+            <img src={backgroundImg} alt={title} className="absolute object-cover w-full h-full" />
+            <div className="absolute flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-50">
+                <h3 className="text-2xl font-semibold text-white">{title}</h3>
+                <p className="text-sm text-white">{tech}</p>
+                <a href={projectUrl} className="px-4 py-2 mt-4 text-sm text-white bg-[#5651e5] rounded hover:bg-[#6b66e5]">View Project</a>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    )
 }
-
-export default ProjectItem;
