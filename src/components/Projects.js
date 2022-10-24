@@ -17,14 +17,14 @@ function Projects() {
               <ProjectItem
                 title='Sandwiches With Love'
                 backgroundImg={SWL_logo}
-                projectUrl={"projectUrl"}
+                projectUrl={"https://github.com/Esoteric918/SWL-project"}
                 tech='HTML, Tailwind CSS'
               />
               <ProjectItem
                 title='Whats Out Side Bob?'
                 backgroundImg={WOSB_logo}
                 projectUrl='https://github.com/Esoteric918/whatsoutsidebob'
-                tech='MongoBD, MySQL, Python, TypeScript, React, Node.js, TailwindCSS'
+                tech='MongoBD, MySQL, Python, TypeScript, Node.js, TailwindCSS'
 
               />
               <ProjectItem
