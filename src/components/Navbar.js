@@ -106,6 +106,7 @@ const Navbar = () => {
                 <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Contact</li>
               </a>
           </ul>
+      </div>
     </React.Fragment>
   )
 }
