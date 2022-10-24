@@ -9,21 +9,10 @@ import logo from '../assets/ts-logo.png';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-
+  console.log(nav);
     const handleNav = () => {
         setNav(!nav);
     }
-
-  // useEffect(() => {
-  //   const handleShadow = () => {
-  //     if (window.scrollY >= 90) {
-  //       setShadow(true);
-  //     } else {
-  //       setShadow(false);
-  //     }
-  //   };
-  //   window.addEventListener('scroll', handleShadow);
-  // }, []);
 
   return (
     <React.Fragment>
@@ -41,13 +30,13 @@ const Navbar = () => {
             <a href="/#about">
               <li className="ml-10 text-sm uppercase  text-yellow-500 /" >About</li>
             </a>
-            <a href="/skills">
+            <a href="/#skills">
               <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Skills</li>
             </a>
             <a href="/#projects">
               <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Projects</li>
             </a>
-            <a href="#/contacts">
+            <a href="/#contacts">
               <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Contact</li>
             </a>
           </ul>
@@ -63,18 +52,15 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {/* Overlay */}
-      <div
-        className={
-          Navbar ? 'md:hidden fixed left-0 top-0 w-full h-screen' : ''
-        }
-      ></div>
+
       {/* sidebar */}
+      {console.log(nav)}
       <div
 
         className={
-          Navbar
+          nav
             ? 'md:hidden fixed left-0 top-0 w-3/4 h-screen bg-gray-900 z-10'
-            : 'md:hidden fixed left-0 top-0 w-3/4 h-screen bg-gray-900 z-10 -left-full'
+            : 'hidden'
         } >
         <div className='flex justify-between items-center w-full h-16 px-3 2xl:px-16'>
           <img
@@ -93,16 +79,16 @@ const Navbar = () => {
             <a href="/" type=''>
               <li className="ml-10 text-sm uppercase text-yellow-500 /" >Home</li>
             </a>
-            <a href="/#about">
+            <a href="/#about" type='' onClick={handleNav}>
               <li className="ml-10 text-sm uppercase  text-yellow-500 /" >About</li>
             </a>
-            <a href="/skills">
+            <a href="/#skills">
               <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Skills</li>
             </a>
-              <a href="/#projects">
+              <a href="/#projects" onClick={handleNav}>
                 <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Projects</li>
               </a>
-              <a href="#/contacts">
+              <a href="/#contacts" onClick={handleNav}>
                 <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Contact</li>
               </a>
           </ul>
