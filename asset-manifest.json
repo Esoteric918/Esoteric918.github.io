@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1a75c3d.css",
-    "main.js": "/static/js/main.f1ac6c88.js",
+    "main.css": "/static/css/main.7c947a01.css",
+    "main.js": "/static/js/main.ce5fb002.js",
     "static/js/787.4c10f38a.chunk.js": "/static/js/787.4c10f38a.chunk.js",
     "static/media/me.jpg": "/static/media/me.ad0e663ab8f3044ba25d.jpg",
     "static/media/WOSB-logo.png": "/static/media/WOSB-logo.0142fafc332e6bb5a119.png",
@@ -10,12 +10,12 @@
     "static/media/SWL-logo.jpg": "/static/media/SWL-logo.dfe0045f1ec2f770ffe1.jpg",
     "static/media/holb_waves.jpg": "/static/media/holb_waves.dc42913d3a09582daf43.jpg",
     "index.html": "/index.html",
-    "main.d1a75c3d.css.map": "/static/css/main.d1a75c3d.css.map",
-    "main.f1ac6c88.js.map": "/static/js/main.f1ac6c88.js.map",
+    "main.7c947a01.css.map": "/static/css/main.7c947a01.css.map",
+    "main.ce5fb002.js.map": "/static/js/main.ce5fb002.js.map",
     "787.4c10f38a.chunk.js.map": "/static/js/787.4c10f38a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1a75c3d.css",
-    "static/js/main.f1ac6c88.js"
+    "static/css/main.7c947a01.css",
+    "static/js/main.ce5fb002.js"
   ]
 }
