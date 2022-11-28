@@ -1,7 +1,7 @@
 import html from '../assets/html5.png';
 import faPython from '../assets/Python.png';
 import Javascript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
+import ReactImg from '../assets/React-icon2.png';
 import Tailwind from '../assets/tailwind.png';
 import Github from '../assets/github.png';
 import django from '../assets/django.png';
@@ -69,6 +69,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='p-6 shadow-xl  shadow-slate-300 rounded-xl hover:scale-105 ease-in duration-300'>
+            <a href='https://en.wikipedia.org/wiki/HTML5' >
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <img src={django} width='64px' height='64px' alt='/' />
@@ -77,6 +78,7 @@ const Skills = () => {
                 <h3>Django</h3>
               </div>
             </div>
+            </a>
           </div>
           <div className='p-6 shadow-xl  shadow-slate-300 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>

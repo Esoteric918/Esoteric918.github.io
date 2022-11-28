@@ -10,13 +10,17 @@ import "./App.css";
 function App() {
   return (
     <React.Fragment>
-    <div className="App">
+    <div>
 
-        <Navbar />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact />
+
+      <div className="App">
+
+          <Navbar />
+          <AboutMe />
+          <Skills />
+          <Projects />
+          <Contact />
+      </div>
     </div>
     </React.Fragment>
   );
