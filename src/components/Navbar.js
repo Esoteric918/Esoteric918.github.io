@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { faHome, faInfo, faTools, faProjectDiagram, faContactCard } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/ts-logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
@@ -16,14 +18,14 @@ const Navbar = () => {
 
   return (
     <React.Fragment>
-    <div className="w-full h-32 shadow-xl shadow-gray-400" id="Navbar">
+    <div className="w-full h-32 shadow-xl shadow-gray-400 dark:shadow-md dark:shadow-gray-400" id="Navbar">
       <div className="flex justify-between  items-center w-full h-full px-3 2xl:px-16" >
       <img
         src={logo}
-        className='rounded-full shadow-md shadow-gray-400 h-16 w-16'
+        className='rounded-full shadow-md shadow-gray-400 dark:shadow-md dark:shadow-gray-400 h-16 w-16'
         alt='/' />
 
-          <ul className='hidden md:flex'>
+          <ul className='hidden md:flex sm:justify-start'>
             <a href="/" type=''>
               <li className="ml-10 text-sm uppercase text-yellow-500 /" >Home</li>
             </a>
@@ -77,19 +79,19 @@ const Navbar = () => {
         </div>
         <ul className='flex flex-col justify-center items-center h-full'>
             <a href="/" type=''>
-              <li className="ml-10 text-sm uppercase text-yellow-500 /" >Home</li>
+              <li className="ml-4 pb-2 text-sm uppercase text-yellow-500 /" >Home <FontAwesomeIcon icon={faHome}></FontAwesomeIcon></li>
             </a>
             <a href="/#about" type='' onClick={handleNav}>
-              <li className="ml-10 text-sm uppercase  text-yellow-500 /" >About</li>
+              <li className="ml-4 pb-2 text-sm uppercase  text-yellow-500 /" >About<FontAwesomeIcon icon={faHome}></FontAwesomeIcon></li>
             </a>
             <a href="/#skills">
-              <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Skills</li>
+              <li className="ml-4  pb-2 text-sm uppercase  text-yellow-500 /" >Skills<FontAwesomeIcon icon={faTools}></FontAwesomeIcon></li>
             </a>
               <a href="/#projects" onClick={handleNav}>
-                <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Projects</li>
+                <li className="ml-4  pb-2 text-sm uppercase  text-yellow-500 /" >Projects<FontAwesomeIcon icon={faProjectDiagram}></FontAwesomeIcon></li>
               </a>
               <a href="/#contacts" onClick={handleNav}>
-                <li className="ml-10 text-sm uppercase  text-yellow-500 /" >Contact</li>
+                <li className="ml-4 pb-2 text-sm uppercase  text-yellow-500 /" >Contact<FontAwesomeIcon icon={faContactCard}></FontAwesomeIcon></li>
               </a>
           </ul>
       </div>

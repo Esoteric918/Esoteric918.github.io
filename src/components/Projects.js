@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import SWL_logo from "../assets/SWL-logo.jpg";
+import GarMint from "../assets/GarMint.png";
 import WOSB_logo from "../assets/WOSB-logo.png";
 import air_clone from "../assets/air_clone.jpg";
 import holb_waves from "../assets/holb_waves.jpg";
@@ -15,10 +15,10 @@ function Projects() {
             <h2 className='py-4 text-yellow-400'>Things I have worked on!</h2>
             <div className='grid md:grid-cols-2 gap-8'>
               <ProjectItem
-                title='Sandwiches With Love'
-                backgroundImg={SWL_logo}
-                projectUrl={"https://github.com/Esoteric918/SWL-project"}
-                tech='HTML, Tailwind CSS'
+                title='GarMint An A.I. Powered Fashion Valet'
+                backgroundImg={GarMint}
+                projectUrl={"https://github.com/treserio/GarMint"}
+                tech='Next.js, React, Tailwind CSS, TypeScript, AWS, TensorFlow, RoboFlow, Python,'
               />
               <ProjectItem
                 title='Whats Out Side Bob?'
