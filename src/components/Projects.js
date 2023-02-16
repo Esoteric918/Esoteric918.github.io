@@ -17,7 +17,7 @@ function Projects() {
               <ProjectItem
                 title='GarMint An A.I. Powered Fashion Valet'
                 backgroundImg={GarMint}
-                projectUrl={"https://github.com/treserio/GarMint"}
+                projectUrl={"https://github.com/Esoteric918/GarMint-Capstone/"}
                 tech='Next.js, React, Tailwind CSS, TypeScript, AWS, TensorFlow, RoboFlow, Python,'
               />
               <ProjectItem
