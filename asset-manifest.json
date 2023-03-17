@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.e2eddaaa.css",
-    "main.js": "/static/js/main.06526d2b.js",
+    "main.js": "/static/js/main.0eb5e813.js",
     "static/js/787.4c10f38a.chunk.js": "/static/js/787.4c10f38a.chunk.js",
     "static/media/me.jpg": "/static/media/me.ad0e663ab8f3044ba25d.jpg",
-    "static/media/WOSB-logo.png": "/static/media/WOSB-logo.0142fafc332e6bb5a119.png",
+    "static/media/Twitter_img.png": "/static/media/Twitter_img.82329a2ba2264e83b499.png",
     "static/media/air_clone.jpg": "/static/media/air_clone.ebd503cb5651fec5cf31.jpg",
     "static/media/ts-logo.png": "/static/media/ts-logo.de3b7d9dda413bbf503d.png",
     "static/media/holb_waves.jpg": "/static/media/holb_waves.dc42913d3a09582daf43.jpg",
     "static/media/GarMint.png": "/static/media/GarMint.b87d61bc8e48c06d0fc9.png",
     "index.html": "/index.html",
     "main.e2eddaaa.css.map": "/static/css/main.e2eddaaa.css.map",
-    "main.06526d2b.js.map": "/static/js/main.06526d2b.js.map",
+    "main.0eb5e813.js.map": "/static/js/main.0eb5e813.js.map",
     "787.4c10f38a.chunk.js.map": "/static/js/787.4c10f38a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2eddaaa.css",
-    "static/js/main.06526d2b.js"
+    "static/js/main.0eb5e813.js"
   ]
 }
