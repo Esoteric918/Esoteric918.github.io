@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import GarMint from "../assets/GarMint.png";
-import WOSB_logo from "../assets/WOSB-logo.png";
+import Twitter_img from "../assets/Twitter_img.png";
 import air_clone from "../assets/air_clone.jpg";
 import holb_waves from "../assets/holb_waves.jpg";
 
@@ -21,10 +21,10 @@ function Projects() {
                 tech='Next.js, React, Tailwind CSS, TypeScript, AWS, TensorFlow, RoboFlow, Python,'
               />
               <ProjectItem
-                title='Whats Out Side Bob?'
-                backgroundImg={WOSB_logo}
-                projectUrl='https://github.com/Esoteric918/whatsoutsidebob'
-                tech='MongoBD, MySQL, Python, TypeScript, Node.js, TailwindCSS'
+                title='Flutter Twitter Clone'
+                backgroundImg={Twitter_img}
+                projectUrl='https://github.com/Esoteric918/holbertonschool-twitter_clone'
+                tech='Dart, Flutter, Firebase'
 
               />
               <ProjectItem
